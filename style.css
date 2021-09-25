@@ -20,6 +20,7 @@ section {
 #hour,
 #min,
 #sec {
+  display: block;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -27,17 +28,17 @@ section {
   transform: rotate(-90deg);
 }
 #hour {
-  width: 7%;
-  border-top: #000 solid 3px;
+  width: 9%;
+  border-top: #000 solid 5px;
   border-radius: 50%;
 }
-#min{
-  width: 10%;
-  border-top: #000 solid 2px;
+#min {
+  width: 13%;
+  border-top: #000 solid 4px;
   border-radius: 50%;
 }
-#sec{
-  width: 10%;
-  border-top: #f70511 solid 2px;
+#sec {
+  width: 13%;
+  border-top: #f70511 solid 3px;
   border-radius: 50%;
 }
